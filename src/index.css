@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: hsla(60, 12%, 95%, 0.75);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: grab;
+  z-index: 1;
+ 
+}
+
+
+/* h1 {
+  font-family: ;
+} */
