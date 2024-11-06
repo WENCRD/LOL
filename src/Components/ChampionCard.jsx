@@ -1,3 +1,4 @@
+import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useNavigate } from 'react-router-dom';
@@ -11,7 +12,7 @@ const ChampionCard  = ({ championCard }) => {
 
     return (
     <>
-        <Card style={{ width: '10rem' }} onClick={() => { navigateTo(championCard.id) }}>
+        <Card style={{ width: '11rem' }} onClick={() => { navigateTo(championCard.id) }}>
             <Card.Img variant="top" src={"https://ddragon.leagueoflegends.com/cdn/img/champion/loading/" + championCard.id + "_0.jpg"} />
             <Card.Body>
                 <Card.Title >{championCard.name}</Card.Title>

@@ -26,7 +26,7 @@ const NavBar = () => {
                         <Link to={"/"}>Champions</Link>
                     </Nav>
                 <Nav className="me-auto">
-                        <Link to={"/"}>Items</Link>
+                        <Link to={"/items"}>Items</Link>
                     </Nav>
             </Navbar.Collapse>
           </Navbar.Brand>
